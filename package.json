@@ -1,0 +1,42 @@
+{
+  "name": "zoo",
+  "version": "1.0.0",
+  "description": "Utility lib",
+  "main": "dist/zoo.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests/**/*.spec.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winthers/zoo.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "martin winther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winthers/zoo/issues"
+  },
+  "homepage": "https://github.com/winthers/zoo#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "jasmine-core": "^3.5.0",
+    "karma": "^5.0.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.1.1",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "grunt-babel": "^8.0.0"
+  }
+}
