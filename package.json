@@ -21,7 +21,7 @@
   "homepage": "https://github.com/winthers/zoo#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "grunt": "^1.1.0",
+    "grunt": "^1.5.3",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "jasmine-core": "^3.5.0",
